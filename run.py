@@ -11,7 +11,7 @@ options.add_argument('headless')
 options.add_argument("disable-gpu")
 options.add_argument('lang=ko_KR')
 options.add_argument("user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36")
-driver = webdriver.Chrome('C:\Python\chromedriver.exe', chrome_options = options)
+driver = webdriver.Chrome('PATH', chrome_options = options)
 user_id = input("DCINSIDE 아이디를 입력해주세요..: ")
 user_pw = input("DCINSIDE 비밀번호를 입력해주세요..: ")
 gallog = 'https://gallog.dcinside.com/'+ user_id +'/posting/'
