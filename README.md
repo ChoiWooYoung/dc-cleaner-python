@@ -17,3 +17,8 @@
 * Headless 모드라 웹브라우저가 보이지 않음
 * 갤러리 번호를 잘못 입력할 시 프로그램이 종료됨
 * CAPTCHA는 직접 사이트에 들어가서 풀어야함
+
+## TODO
+* PyQT를 이용한 GUI화
+* Minimalize
+* Support Linux
