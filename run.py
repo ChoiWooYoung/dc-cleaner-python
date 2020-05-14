@@ -87,7 +87,7 @@ if wrtcmt == 1:
     driver.get(comment)
     cmtcheck = int(input('삭제할 갤러리? (전체 갤러리는 0, 특정 갤러리는 1선택) : '))
     if cmtcheck == 0:
-        allcmt = int(input("지울 댓글 수(최신순, 다 지울거면 자신의 게시글수 적으세요.) : "))
+        allcmt = int(input("지울 댓글 수(최신순, 다 지울거면 자신의 댓글수 적으세요.) : "))
         for i in range (1, allcmt + 1):
             driver.find_element_by_xpath('/html/body/div/div[2]/main/article/div/section/div[1]/div/ul/li[1]/div[2]/div/button').click()
             driver.switch_to.alert.accept()
